@@ -53,7 +53,6 @@ def main():
 
     top10 = get_top_10(notifications)
 
-    # output only required fields in structured format
     output = [
         {
             "ID": n.get("ID"),
